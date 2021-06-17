@@ -1,0 +1,227 @@
+@charset "utf-8";
+* {margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body{background: url("https://www.toptal.com/designers/subtlepatterns/patterns/wall4.png");
+}
+
+#contenedor{
+	background-color: #525252;
+	color:#FFFFFF;
+	font-size: 100px;
+}
+
+img {
+	border-radius: 8px;
+  }
+
+.fotoPerfil{
+	align-content: center;
+	padding-top: 150px;
+	z-index: 0;
+}
+
+.fotoPerfilDibujo{
+	align-content: center;
+	padding-top: 150px;
+	z-index: 0;
+}
+
+.bocadillo1{
+	width: 70px;
+	height: 70px;
+	padding-left: 500px;
+	margin-top: -400px;
+	z-index: 1;
+	animation-name: degradado;
+	animation-duration: 1000s;
+	animation-delay: 3s;
+	animation-iteration-count: infinite;
+	opacity: 0%;
+	}
+.bocadillo2{
+	width: 70px;
+	height: 70px;
+	padding-left: 400px;
+	margin-top: 150px;
+	z-index: 1;
+	animation-name: degradado;
+	animation-duration: 1000s ;
+	animation-delay: 6s;
+	animation-iteration-count: infinite;
+	opacity: 0%;
+	}
+.bocadillo3{
+	width: 70px;
+	height: 70px;
+	padding-left: 500px;
+	margin-top: 150px;
+	margin-bottom: 300px;
+	z-index: 1;
+	animation-name: degradado;
+	animation-duration: 1000s ;
+	animation-delay: 9s;
+	animation-iteration-count: infinite;
+	opacity: 0%;
+	}
+.bocadillo4{
+	width: 70px;
+	height: 70px;
+	padding-left: 1100px;
+	margin-top: -700px;
+	z-index: 1;
+	animation-name: degradado;
+	animation-duration: 1000s ;
+	animation-delay: 12s;
+	animation-iteration-count: infinite;
+	opacity: 0%;
+	}
+.bocadillo5{
+	width: 70px;
+	height: 70px;
+	padding-left: 1200px;
+	padding-top: 200px;
+	margin-bottom: 200px;
+	z-index: 1;
+	animation-name: degradado;
+	animation-duration: 1000s ;
+	animation-delay: 15s;
+	animation-iteration-count: infinite;
+	opacity: 0%;
+	}
+
+@keyframes degradado {
+	0%   {opacity: 0%; left:0px; top:0px;}
+	1% {opacity: 100%; left:0px; top:0px;}
+	100% {opacity: 100%; left:0px; top:0px;}
+	}
+
+header{
+	text-align: center;
+	color: white;
+	font-family: 'Quantico', sans-serif;
+	text-decoration: none;
+}
+.barra{
+	background: #423528;
+}
+
+.nombreCintia{
+	padding-top: 50px;
+	color: white;
+	text-align: center;
+}
+.textoinicio{
+	padding-top: 30px;
+	padding-bottom: 200px;
+	width: 80%;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titulo{
+	font-family: 'Quantico', sans-serif;
+	text-decoration: none;
+	color:#423528;
+	font-size:50px ;
+	margin: 20px;
+	text-align: center;
+	padding-top: 100px;
+}
+.textoexp{
+	width: 80%;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#video{
+	margin: auto;
+	width: 100%;
+}
+#myCarousel{
+	width:65%;
+	margin: auto;
+}
+@media screen and (max-width:767px){
+	.fotoPerfil{
+		align-content: center;
+	}
+	.fotoPerfilDibujo{
+		align-content: center;
+		margin-top: -80px;
+	}
+	.bocadillo1{
+		padding-top: 430px;
+		padding-left: 0px;
+	}
+	.bocadillo2{
+		padding-top: 20px;
+		padding-left: 150px;
+	}
+	.bocadillo3{
+		padding-top: 0px;
+		padding-left: 0px;
+	}
+	.bocadillo4{
+		padding-top: 530px;
+		padding-left: 200px;
+	}
+	.bocadillo5{
+		padding-top: 200px;
+		padding-left: 50px;
+	}
+
+	.titulo{
+	font-size: 8vw;
+	}
+	#contenedor{
+	font-size: 10vw;	
+	}
+	video{
+		width: 80% !important;
+		height: auto;
+	}
+	.video{
+		width: 100% !important;
+		height: auto;
+		text-align: center;
+	}
+}
+
+.video{
+	text-align: center;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+	
+}
+.video iframe, .video-responsive object, .video-responsive embed {
+    height: 80%;
+    left:9% ;
+    position: absolute;
+    width: 80%;
+}

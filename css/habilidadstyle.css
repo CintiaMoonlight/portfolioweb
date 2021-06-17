@@ -1,0 +1,161 @@
+.habilidad1{
+	font-family: 'Quantico', sans-serif;
+	text-decoration: none;
+	color:white;
+	background-color: #423528;
+	font-size: 25px ;
+	height: 72px;
+	margin: 20px;
+	margin-left: 200px;
+	margin-right: 1400px;
+	border-radius: 5mm;
+}
+
+.habilidad2{
+	font-family: 'Quantico', sans-serif;
+	text-decoration: none;
+	color:white;
+	background-color: #423528;
+	font-size: 25px ;
+	height: 72px;
+	margin: 20px;
+	margin-left: 1000px;
+	margin-right: 600px;
+	border-radius: 5mm;
+	margin-top: -735px;
+}
+
+.habilidad3{
+	font-family: 'Quantico', sans-serif;
+	text-decoration: none;
+	color:white;
+	background-color: #423528;
+	font-size: 25px ;
+	height: 72px;
+	margin: 20px;
+	margin-left: 1000px;
+	margin-right: 600px;
+	border-radius: 5mm;
+	margin-top: 0px;
+}
+
+.porcentaje1{
+	border-radius: 5mm;
+	background-color: #cfc3b5;
+	height: 72px;
+	margin: 20px;
+	margin-left: 500px;
+	margin-right: 1000px;
+	margin-top: -735px;
+}
+
+.porcentaje2{
+	border-radius: 5mm;
+	background-color: #cfc3b5;
+	height: 72px;
+	margin: 20px;
+	margin-left: 500px;
+	margin-right: 1000px;
+	margin-top: 0px;
+}
+
+.porcentaje3{
+	border-radius: 5mm;
+	background-color: #cfc3b5;
+    font-size: 50px;
+	text-align: center;
+	height: 72px;
+	margin: 20px;
+	margin-left: 1350px;
+	margin-right: 200px;
+	margin-top: -465px;
+}
+
+.porcentaje4{
+	border-radius: 5mm;
+	background-color: #cfc3b5;
+    font-size: 50px;
+	text-align: center;
+	height: 72px;
+	margin: 20px;
+	margin-left: 1350px;
+	margin-right: 200px;
+	margin-top: 0px;
+}
+
+.porcentaje5{
+	border-radius: 5mm;
+	background-color: #cfc3b5;
+    font-size: 50px;
+	text-align: center;
+	height: 72px;
+	margin: 20px;
+	margin-left: 1350px;
+	margin-right: 200px;
+	margin-top: 0px;
+    margin-bottom: 300px;
+}
+
+@media screen and (max-width:1700px){
+    .habilidad1{
+		width: 50% !important;
+		height: auto;
+		margin-left: 0px;
+        border-radius: 3mm;
+    }
+    .porcentaje1{
+        width: 40% !important;
+		height: auto;
+        margin-top: -440px;
+		margin-left: 250px;
+        border-radius: 3mm;
+        font-size: 20px;
+    }
+    .porcentaje2{
+        width: 40% !important;
+		height: auto;
+        margin-top: 27px;
+		margin-left: 250px;
+        border-radius: 3mm;
+        font-size: 20px;
+    }
+    .habilidad2{
+		width: 50% !important;
+		height: auto;
+        margin-top: 0px;
+		margin-left: 0px;
+        border-radius: 3mm;
+    }
+    .habilidad3{
+		width: 50% !important;
+		height: auto;
+        margin-top: 0px;
+		margin-left: 0px;
+        border-radius: 3mm;
+    }
+    .porcentaje3{
+        width:37% !important;
+		height: auto;
+        margin-top: -270px;
+		margin-left: 270px;
+        border-radius: 3mm;
+        font-size: 20px;
+    }
+    .porcentaje4{
+        width:37% !important;
+		height: auto;
+        margin-top: 25px;
+		margin-left: 270px;
+        border-radius: 3mm;
+        font-size: 20px;
+    }
+    .porcentaje5{
+        width:37% !important;
+		height: auto;
+        margin-top: 30px;
+		margin-left: 270px;
+        margin-bottom: 0px;
+        border-radius: 3mm;
+        font-size: 20px;
+    }
+}
